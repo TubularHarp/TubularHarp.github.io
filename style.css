@@ -12,3 +12,22 @@ body{
     width: 100vw;
     text-align: center;
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+/*
+Header
+
+*/
+
+header {
+    background-color: lightgray;
+}
