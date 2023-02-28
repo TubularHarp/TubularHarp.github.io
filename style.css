@@ -35,14 +35,14 @@ header {
 
 }
 
-ul{
+nav ul{
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
 
 }
 nav li{
-    margin:auto0 1rem;
+    margin: 0 1rem;
 
 }
 
