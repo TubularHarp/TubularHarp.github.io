@@ -1,11 +1,11 @@
-body{
+body {
     background-color: gray;
 }
 /*
 Global Styles
 
 */
-body{
+body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
     margin: 0;
@@ -35,30 +35,30 @@ header {
 
 }
 
-nav ul{
+nav ul {
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
 
 }
-nav li{
+nav li {
     margin: 0 1rem;
 
 }
 
-header h1{
+header h1 {
     font-size: 5rem;
 
 }
 
-header p{
+header p {
     font-size: 1.6rem;
     padding: 1rem 0;
     border-bottom: 1px solid lightgray;
 }
 
 
-.rotate{
+.rotate {
     margin-top: 3rem;
     font-size: 3rem;
     opacity: 0.4;
@@ -68,7 +68,7 @@ header p{
 PARALLAX
 */
 
-.paralllax{
+.paralllax {
     background-image:url(https://raw.githubusercontent.com/TubularHarp/TubularHarp.github.io/main/pictures/336a9b57164cdd417afa660e0de1e800.jpg);
     height: 100vh;
     background-position: center;
@@ -76,13 +76,13 @@ PARALLAX
     background-attachment: fixed;
 }
 
-.paralllax ul{
+.paralllax ul {
     font-size: 1.8rem;
     padding: 1rem;
 
 }
 
-.paralllax li{
+.paralllax li {
     margin: 2rem 0;
 
 }
