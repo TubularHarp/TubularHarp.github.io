@@ -75,3 +75,14 @@ PARALLAX
     background-size: cover;
     background-attachment: fixed;
 }
+
+.paralllax ul{
+    font-size: 1.8rem;
+    padding: 1rem;
+
+}
+
+.paralllax li{
+    margin: 2rem 0;
+
+}
