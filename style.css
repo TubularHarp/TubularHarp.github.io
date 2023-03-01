@@ -63,3 +63,14 @@ header p{
     font-size: 3rem;
     opacity: 0.4;
 }
+
+/*
+PARALLAX
+*/
+
+.paralllax{
+    background-image: url(pictures/7bc7a5b5e98318c1923d4f7a344f7363.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
