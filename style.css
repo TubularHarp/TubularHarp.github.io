@@ -29,7 +29,7 @@ Header
 */
 
 header {
-    background-color: lightgray;
+    background-color: transparent;
     padding: 1rem;
     height: 20vh;
 
@@ -72,7 +72,7 @@ PARALLAX
     background-image:url(https://raw.githubusercontent.com/TubularHarp/TubularHarp.github.io/main/pictures/336a9b57164cdd417afa660e0de1e800.jpg);
     height: 100vh;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
 
 }
