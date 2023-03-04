@@ -39,7 +39,7 @@ header ul li{
 
 }
 header ul li a{
-    
+
     position: relative;
     color: #1d1e22;
     font-weight: 600;
@@ -60,7 +60,7 @@ header ul li a::after{
 
 header ul li a:hover::after{
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: #1d1e22;
 
 }
 section{
