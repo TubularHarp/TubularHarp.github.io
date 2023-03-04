@@ -65,6 +65,12 @@ section{
     background-image: url("pic1.jpg");
     background-size: cover;
 }
+button {
+    object-position: right;
+    background-color: blue;
+    height: max-content;
+    width: 100vw;
+ }
 
 /*
 body {
