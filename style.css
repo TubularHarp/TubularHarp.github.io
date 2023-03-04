@@ -9,6 +9,7 @@ body{
     overflow-y: hidden;
     font-family: 'Poppins', sans-serif;
 }
+
 .main{
     width: 400%;
     height: 100%;
@@ -33,7 +34,7 @@ header ul{
 
 
 header ul li{
-    margin: 0 1rem;
+    margin:0 1rem;
     padding: 1rem;
 
 }
