@@ -1,6 +1,14 @@
 
-
-
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
+}
 
 /*
 body {
