@@ -34,12 +34,12 @@ header ul{
 
 header ul li{
     margin: 0 1rem;
-   padding: 1rem;
+    padding: 1rem;
 
 }
 header ul li a{
     position: relative;
-    color: white;
+    color: #f4f4f4;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -69,7 +69,7 @@ section{
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    background-image: url("");
+    background-image: url("pic1.jpg");
     background-size: cover;
 }
 
