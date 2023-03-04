@@ -30,6 +30,21 @@ header ul{
     list-style: none;
     justify-content: center;
 }
+
+
+header ul li{
+    margin: 0 1rem;
+   padding: 1rem;
+
+}
+header ul li a{
+    position: relative;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
 /*
 body {
         background-image: url(https://raw.githubusercontent.com/TubularHarp/TubularHarp.github.io/main/pictures/7bc7a5b5e98318c1923d4f7a344f7363-transformed%20.jpeg);
