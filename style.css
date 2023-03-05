@@ -1,7 +1,7 @@
  /*
     MAIN BODY AND PROJECT LAYOUT    
  
- */
+ *//*
 *{
     scroll-behavior: smooth;
     margin: 0;
@@ -68,7 +68,7 @@ section{
 }
  /*
  MAINBODY PROJECT LAYOUT UI
- */
+ *//*
 section{
     position: relative;
     width: 100vw;
@@ -85,7 +85,7 @@ button B1{
     height: fit-content;
     width: 10vw;
  }
-
+ */
 
 
 
