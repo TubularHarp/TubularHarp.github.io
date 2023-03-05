@@ -21,8 +21,8 @@
 }
 
 .wrapper div section {
-	width: 100%;
-	height: 100%;
+    width: 100vw;
+    min-height: 100vh;
     color: transparent;
     background-color: transparent;
 }
