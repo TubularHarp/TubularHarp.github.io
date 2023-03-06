@@ -2,6 +2,259 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    scroll-behavior: smooth;
+} 
+.wrapper {
+	width: 500%;
+	height: 500%;
+    flex-direction: column; /* Stack divs vertically */
+	display: flex;
+}
+.wrapper div {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+}
+.wrapper div section {
+    width: 100vw;
+    min-height: 100vh;
+}
+ .div1, .div2, .div3, .div4, .div5 {
+    display: flex;
+    flex-direction: column; /* Revert back to horizontal direction */
+  }
+  .div1, .div2, .div3, .div4, .div5 {
+    width: 500vw; /* Set the width of each div to 100% viewport width */
+    height: 100vh; /* Set the height of each div to 100% viewport height */
+  }
+  /*overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: transparent; /* semi-transparent black background */
+    z-index: 9999; /* ensure that the overlay is on top of other elements */
+  }
+/*overlay buttons */
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  button {
+    background-color: transparent;
+    border:transparent;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0px;
+    margin: 0px;
+    font-display: transparent;
+
+  }
+  
+  .topbutton {
+    color: transparent;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    right: 50%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to bottom, #1d1e22, rgba(29,30,34,0.4),transparent);
+  }
+  .bottombutton {
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    bottom: 0%;
+    top: 100%;
+    background: linear-gradient(to top, #1d1e22, rgba(29,30,34,0.4),transparent);
+    transform: translate(-50%, -50%);
+  }
+  .leftbutton {
+    height: 100%;
+    width: 3%;
+    left: 0%;
+    position: fixed;    
+    bottom: 50%;
+    top: 50%;
+    right: 100%;
+    background: linear-gradient(to right, #1d1e22, rgba(29,30,34,0.4),transparent);
+    transform: rotate(-90deg);
+    transform: translate(-50%, -50%);
+  }
+  .rightbutton {
+    height: 100%;
+    width: 3%;
+    position: fixed;
+    right: 0%;
+    bottom: 50%;
+    top: 50%;
+    left: 100%;
+    background: linear-gradient(to left, #1d1e22, rgba(29,30,34,0.4),transparent);
+    transform: rotate(90deg);
+    transform: translate(-50%, -50%);
+  }
+  
+/*div1 */
+.div1 {
+	background-color: red;
+    border: #1a1a1a;
+}
+.div1 .section1{
+	background-color: #e6e6e6;
+    opacity: 0.5;
+}
+.div1 .section2{
+	background-color: #b3b3b3;
+    opacity: 0.5;
+}
+.div1 .section3{
+	background-color: #808080;
+    opacity: 0.5;
+}
+.div1 .section4{
+	background-color: #4d4d4d;
+    opacity: 0.5;
+}
+.div1 .section5{
+	background-color: #1a1a1a;
+    opacity: 0.5;
+}
+/*div2 */
+.div2 {
+	background-color: orange;
+    border: #1a1a1a;
+}
+.div2 .section1{
+	background-color: #e6e6e6;
+    opacity: 0.5;
+}
+.div2 .section2{
+	background-color: #b3b3b3;
+    opacity: 0.5;
+}
+.div2 .section3{
+	background-color: #808080;
+    opacity: 0.5;
+}
+.div2 .section4{
+	background-color: #4d4d4d;
+    opacity: 0.5;
+}
+.div2 .section5{
+	background-color: #1a1a1a;
+    opacity: 0.5;
+}
+/*div3 */
+.div3 {
+	background-color: yellow;
+    border: #1a1a1a;
+}
+.div3 .section1{
+	background-color: #e6e6e6;
+    opacity: 0.5;
+}
+.div3 .section2{
+	background-color: #b3b3b3;
+    opacity: 0.5;
+}
+.div3 .section3{
+	background-color: #808080;
+    opacity: 0.5;
+}
+.div3 .section4{
+	background-color: #4d4d4d;
+    opacity: 0.5;
+}
+.div3 .section5{
+	background-color: #1a1a1a;
+    opacity: 0.5;
+}
+/*div4 */
+.div4 {
+	background-color: green;
+    border: #1a1a1a;
+}
+.div4 .section1{
+	background-color: #e6e6e6;
+    opacity: 0.5;
+}
+.div4 .section2{
+	background-color: #b3b3b3;
+    opacity: 0.5;
+}
+.div4 .section3{
+	background-color: #808080;
+    opacity: 0.5;
+}
+.div4 .section4{
+	background-color: #4d4d4d;
+    opacity: 0.5;
+}
+.div4 .section5{
+	background-color: #1a1a1a;
+    opacity: 0.5;
+}
+/*div5 */
+.div5 {
+	background-color: blue;
+    border: #1a1a1a;
+}
+.div5 .section1{
+	background-color: #e6e6e6;
+    opacity: 0.5;
+}
+.div5 .section2{
+	background-color: #b3b3b3;
+    opacity: 0.5;
+}
+.div5 .section3{
+	background-color: #808080;
+    opacity: 0.5;
+}
+.div5 .section4{
+	background-color: #4d4d4d;
+    opacity: 0.5;
+}
+.div5 .section5{
+	background-color: #1a1a1a;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+OLD
+*//*
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .wrapper {
@@ -68,14 +321,14 @@
 }
 
  
- 
- 
- 
- 
- 
- 
- 
  /*
+ 
+ 
+ 
+ 
+ 
+ 
+ *//*
     MAIN BODY AND PROJECT LAYOUT    
  
  *//*
